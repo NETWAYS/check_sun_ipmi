@@ -1,9 +1,9 @@
-name: 
+name: check_sun_ipmi
 description: "file:///README.md"
 url: "https://www.netways.org/projects/plugins"
 tags: ~
-vendor: Netways
-target: Temperature
+vendor: NETWAYS
+target: Hardware,IPMI
 type: Plugin
 license: gplv2
 releases: 
@@ -12,8 +12,8 @@ releases:
     description: "1.0 Release"
     files: 
       - 
-        name: check_sun_ipmi.pl
-        url: "file:///check_sun_ipmi.pl"
+        name: check_ipmi.pl
+        url: "file:///check_ipmi.pl"
         description: none
-        checksum: 
+        checksum: 04094557725d953ce7a0a3394cb3151c
 
